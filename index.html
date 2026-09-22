@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akanksha Cosmetics — Bloom with Nature</title>
+<meta name="description" content="Akanksha Cosmetics is a college startup prototype for a botanical-inspired hair-care spray, made with rosemary, clove and methi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+/* Fix: CSS display rules must not override the native hidden attribute. */
+[hidden] {
+  display: none !important;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar" id="navbar">
+  <div class="navbar-inner">
+    <a href="#home" class="brand-mark" aria-label="Akanksha Cosmetics home">
+      <span class="brand-icon" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="28" height="28">
+          <path d="M20 4C13 10 9 17 9 23a11 11 0 0 0 22 0c0-6-4-13-11-19z" fill="currentColor"/>
+        </svg>
+      </span>
+      <span class="brand-name">Akanksha Cosmetics</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#story">Our Story</a>
+      <a href="#product">Product</a>
+      <a href="#ingredients">Ingredients</a>
+      <a href="#quality">Quality</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#faq">FAQ</a>
+      <a href="#buy" class="nav-cta">Buy Now</a>
+    </nav>
+
+    <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="home">
+    <div class="hero-botanical" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-copy reveal">
+        <p class="hero-kicker">Akanksha Cosmetics</p>
+        <h1 class="hero-title">A Cosmetic product by Akanksha</h1>
+        <p class="hero-headline">A botanical-inspired spray for everyday hair and scalp care, built around rosemary, clove and methi — ingredients your grandmother's kitchen already trusted.</p>
+        <p class="hero-sub">Akanksha Cosmetics is a student-built prototype: a simple, lightweight mist designed to slot into a daily hair-care routine, not a promise of overnight transformation.</p>
+        <div class="hero-actions">
+          <a href="#product" class="btn btn-primary">Explore the Spray</a>
+          <a href="#buy" class="btn btn-ghost">Buy Now</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" role="img" aria-label="Akanksha Cosmetics 200 ml spray bottle, product photograph to be added">
+        <div class="bottle-mock">
+          <div class="bottle-cap"></div>
+          <div class="bottle-nozzle"></div>
+          <div class="bottle-body">
+            <span class="bottle-brand">Akanksha Cosmetics</span>
+            <span class="bottle-tag">Bloom with Nature</span>
+            <span class="bottle-divider" aria-hidden="true"></span>
+            <span class="bottle-product">Hair Care Spray</span>
+            <span class="bottle-size">200 ml</span>
+          </div>
+          <p class="bottle-placeholder">[Product image will be added]</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="benefit-strip reveal">
+      <div class="benefit-strip-inner">
+        <span>Botanical Inspired</span>
+        <span>Lightweight Feel</span>
+        <span>Easy Spray Application</span>
+        <span>Everyday Hair Care</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section about" id="about">
+    <div class="section-inner about-grid">
+      <div class="about-copy reveal">
+        <h2>About Akanksha Cosmetics</h2>
+        <p>Akanksha Cosmetics started as a college startup concept — an attempt to take a handful of ingredients long used in home hair-care routines and shape them into one simple, everyday spray.</p>
+        <p>There's no laboratory and no long history behind the name yet. What we have is a small team, a botanical-inspired formulation, and an interest in keeping the product honest about what it is: a prototype, built to be questioned and improved.</p>
+        <ul class="about-points">
+          <li><strong>Student innovation.</strong> Built as a college project, from ingredient sourcing to packaging concept.</li>
+          <li><strong>Nature-inspired formulation.</strong> Centred on rosemary, clove and methi.</li>
+          <li><strong>Simplicity.</strong> One product, one clear use, no unnecessary steps.</li>
+          <li><strong>Transparency.</strong> We say what's confirmed and label what isn't, yet.</li>
+        </ul>
+      </div>
+
+      <div class="team-grid reveal">
+        <div class="team-card">
+          <div class="team-avatar" aria-hidden="true"></div>
+          <p class="team-name">[Name]</p>
+          <p class="team-role">[Role]</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar" aria-hidden="true"></div>
+          <p class="team-name">[Name]</p>
+          <p class="team-role">[Role]</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar" aria-hidden="true"></div>
+          <p class="team-name">[Name]</p>
+          <p class="team-role">[Role]</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar" aria-hidden="true"></div>
+          <p class="team-name">[Name]</p>
+          <p class="team-role">[Role]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= OUR STORY ================= -->
+  <section class="section story" id="story">
+    <div class="section-inner story-grid">
+      <div class="story-visual reveal reveal--left">
+        <div class="story-botanical-a" aria-hidden="true"></div>
+        <div class="story-botanical-b" aria-hidden="true"></div>
+        <div class="bottle-mock">
+          <div class="bottle-cap"></div>
+          <div class="bottle-nozzle"></div>
+          <div class="bottle-body">
+            <span class="bottle-brand">Akanksha Cosmetics</span>
+            <span class="bottle-tag">Bloom with Nature</span>
+            <span class="bottle-divider" aria-hidden="true"></span>
+            <span class="bottle-product">Hair Care Spray</span>
+            <span class="bottle-size">200 ml</span>
+          </div>
+          <p class="bottle-placeholder">[Product image will be added]</p>
+        </div>
+      </div>
+
+      <div class="story-copy reveal reveal--right">
+        <p class="story-eyebrow">Our Story</p>
+        <h2>A Simple Idea. A Natural Beginning.</h2>
+        <p>It started with a simple thought — hair care shouldn't feel complicated.</p>
+        <p>With so many hair-care products and endless promises around them, we wanted to explore a simpler approach: a convenient product inspired by familiar botanical ingredients and traditional hair-care routines.</p>
+        <p>That thought became Akanksha Cosmetics — a student startup concept built around rosemary, clove, and methi, brought together in an easy-to-use spray format.</p>
+        <p>We wanted Akanksha Cosmetics to feel simple, approachable, and honest — a product idea that connects nature-inspired care with everyday routines.</p>
+        <p>For us, Akanksha Cosmetics isn't just about creating a product. It's about taking a small idea and giving it the chance to bloom.</p>
+        <p class="story-closing">Bloom with Nature. 🌿</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PRODUCT ================= -->
+  <section class="section product" id="product">
+    <div class="section-inner product-grid">
+      <div class="product-visual reveal">
+        <div class="bottle-mock bottle-mock--large">
+          <div class="bottle-cap"></div>
+          <div class="bottle-nozzle"></div>
+          <div class="bottle-body">
+            <span class="bottle-brand">Akanksha Cosmetics</span>
+            <span class="bottle-tag">Bloom with Nature</span>
+            <span class="bottle-divider" aria-hidden="true"></span>
+            <span class="bottle-product">Hair Care Spray</span>
+            <span class="bottle-size">200 ml</span>
+          </div>
+          <p class="bottle-placeholder">[Product image will be added]</p>
+        </div>
+      </div>
+
+      <div class="product-info reveal">
+        <h2>Akanksha Cosmetics Hair Care Spray</h2>
+        <p class="product-desc">A fine-mist spray designed for everyday hair and scalp care, formulated around rosemary, clove and methi — ingredients traditionally used in hair-care routines.</p>
+
+        <div class="product-meta">
+          <div><span class="meta-label">Size</span><span class="meta-value">200 ml</span></div>
+          <div><span class="meta-label">Format</span><span class="meta-value">Fine-mist spray</span></div>
+          <div><span class="meta-label">Price</span><span class="meta-value price-value">₹299</span></div>
+        </div>
+
+        <div class="qty-row">
+          <span class="meta-label">Quantity</span>
+          <div class="qty-control" id="productQty">
+            <button type="button" class="qty-btn" data-action="decrease" aria-label="Decrease quantity">−</button>
+            <span class="qty-value" id="productQtyValue">1</span>
+            <button type="button" class="qty-btn" data-action="increase" aria-label="Increase quantity">+</button>
+          </div>
+        </div>
+
+        <a href="#buy" class="btn btn-primary" id="productBuyBtn">Buy Now</a>
+
+        <div class="usage-block">
+          <h3>How to use</h3>
+          <ol class="usage-steps">
+            <li>Shake gently before use.</li>
+            <li>Spray lightly onto the scalp and roots as directed on the final product label.</li>
+            <li>Massage gently.</li>
+            <li>Follow the final product instructions provided with the prototype.</li>
+          </ol>
+        </div>
+
+        <div class="accordion" id="storageAccordion">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="storagePanel">
+            Storage &amp; Care
+            <span class="accordion-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="accordion-panel" id="storagePanel" hidden>
+            <p>Store in a cool, dry place away from direct sunlight. Keep the cap closed when not in use.</p>
+            <p><strong>Shelf life:</strong> [Shelf life to be confirmed]</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= INGREDIENTS ================= -->
+  <section class="section ingredients" id="ingredients">
+    <div class="section-inner">
+      <h2 class="reveal">What's inside</h2>
+      <p class="section-lead reveal">Three ingredients, each with a long history in home hair-care routines, brought together in one botanical-inspired formulation.</p>
+
+      <div class="ingredient-list">
+        <article class="ingredient-row reveal">
+          <div class="ingredient-media" style="--ing-color: var(--sage-deep);">
+            <span class="ingredient-placeholder">[Image will be added]</span>
+          </div>
+          <div class="ingredient-copy">
+            <h3>Rosemary</h3>
+            <p>Traditionally used in hair and scalp care and included as part of the botanical-inspired formulation.</p>
+            <button class="ingredient-toggle" aria-expanded="false" aria-controls="rosemaryDetail">More about rosemary</button>
+            <div class="ingredient-detail" id="rosemaryDetail" hidden>
+              <p>Rosemary has long featured in home hair-care routines across many cultures, often infused into oils or rinses as part of a regular scalp-care habit.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="ingredient-row ingredient-row--reverse reveal">
+          <div class="ingredient-media" style="--ing-color: var(--turmeric-deep);">
+            <span class="ingredient-placeholder">[Image will be added]</span>
+          </div>
+          <div class="ingredient-copy">
+            <h3>Clove</h3>
+            <p>A botanical ingredient traditionally used in personal-care and hair-care practices.</p>
+            <button class="ingredient-toggle" aria-expanded="false" aria-controls="cloveDetail">More about clove</button>
+            <div class="ingredient-detail" id="cloveDetail" hidden>
+              <p>Clove is a familiar presence in traditional personal-care preparations, valued for its distinct character as part of a wider ingredient blend.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="ingredient-row reveal">
+          <div class="ingredient-media" style="--ing-color: var(--clay-deep);">
+            <span class="ingredient-placeholder">[Image will be added]</span>
+          </div>
+          <div class="ingredient-copy">
+            <h3>Methi <span class="ingredient-alt">(Fenugreek)</span></h3>
+            <p>Traditionally used in hair-care routines and included as part of the botanical formulation.</p>
+            <button class="ingredient-toggle" aria-expanded="false" aria-controls="methiDetail">More about methi</button>
+            <div class="ingredient-detail" id="methiDetail" hidden>
+              <p>Methi seeds have a long-standing place in home hair-care routines, often soaked or ground as part of traditional preparations.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= QUALITY ================= -->
+  <section class="section quality" id="quality">
+    <div class="section-inner">
+      <h2 class="reveal">Quality &amp; Transparency</h2>
+      <p class="section-lead reveal">Akanksha Cosmetics is currently a college startup prototype. Here's what that means in practice, and what's still in progress.</p>
+
+      <div class="quality-grid">
+        <div class="quality-card reveal">
+          <h3>Small-Batch Prototype</h3>
+          <p>Produced in small quantities as part of an ongoing student project, not mass manufacturing.</p>
+        </div>
+        <div class="quality-card reveal">
+          <h3>Botanical-Inspired</h3>
+          <p>Formulated around rosemary, clove and methi, with no unverified claims attached to the ingredient list.</p>
+        </div>
+        <div class="quality-card reveal">
+          <h3>Transparent Product Information</h3>
+          <p>Anything we haven't confirmed yet is labelled as pending, rather than guessed at.</p>
+        </div>
+        <div class="quality-card reveal">
+          <h3>Student Innovation</h3>
+          <p>Designed and iterated on by a college team as part of a startup prototype.</p>
+        </div>
+      </div>
+
+      <div class="cert-placeholder reveal">
+        <div class="cert-placeholder-text">
+          <h3>Product Test / Certificate</h3>
+          <p>Documentation will be added here when officially available.</p>
+        </div>
+        <button class="btn btn-disabled" type="button" disabled aria-disabled="true">View Test Summary</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BUY / CHECKOUT ================= -->
+  <section class="section buy" id="buy">
+    <div class="section-inner">
+      <h2 class="reveal">Place a demo order</h2>
+      <p class="section-lead reveal">This is a mock checkout for demonstration purposes. No real payment will be processed.</p>
+
+      <div class="checkout-grid">
+        <div class="checkout-summary reveal">
+          <h3>Order summary</h3>
+          <div class="summary-row">
+            <span>Akanksha Cosmetics Hair Care Spray (200 ml)</span>
+            <span id="summaryUnitPrice">₹299</span>
+          </div>
+
+          <div class="qty-row">
+            <span class="meta-label">Quantity</span>
+            <div class="qty-control" id="buyQty">
+              <button type="button" class="qty-btn" data-action="decrease" aria-label="Decrease quantity">−</button>
+              <span class="qty-value" id="buyQtyValue">1</span>
+              <button type="button" class="qty-btn" data-action="increase" aria-label="Increase quantity">+</button>
+            </div>
+          </div>
+
+          <fieldset class="delivery-options">
+            <legend>Delivery option</legend>
+            <label class="radio-row">
+              <input type="radio" name="delivery" value="Campus Pickup" checked>
+              Campus Pickup
+            </label>
+            <label class="radio-row">
+              <input type="radio" name="delivery" value="Shipping">
+              Shipping <span class="muted">([Shipping details to be confirmed])</span>
+            </label>
+          </fieldset>
+
+          <div class="summary-total">
+            <span>Total</span>
+            <span id="summaryTotal">₹299</span>
+          </div>
+        </div>
+
+        <form class="checkout-form reveal" id="checkoutForm" novalidate>
+          <h3>Delivery details</h3>
+
+          <div class="form-field">
+            <label for="orderName">Name</label>
+            <input type="text" id="orderName" name="orderName" autocomplete="name" required>
+            <span class="field-error" id="orderNameError" role="alert"></span>
+          </div>
+
+          <div class="form-field">
+            <label for="orderEmail">Email</label>
+            <input type="email" id="orderEmail" name="orderEmail" autocomplete="email" required>
+            <span class="field-error" id="orderEmailError" role="alert"></span>
+          </div>
+
+          <div class="form-field">
+            <label for="orderPhone">Phone</label>
+            <input type="tel" id="orderPhone" name="orderPhone" autocomplete="tel" required>
+            <span class="field-error" id="orderPhoneError" role="alert"></span>
+          </div>
+
+          <div class="form-field">
+            <label for="orderAddress">Address</label>
+            <textarea id="orderAddress" name="orderAddress" rows="3" required></textarea>
+            <span class="field-error" id="orderAddressError" role="alert"></span>
+          </div>
+
+          <fieldset class="payment-options">
+            <legend>Payment method (demo only)</legend>
+            <label class="radio-row">
+              <input type="radio" name="payment" value="UPI / QR (Demo)" checked>
+              UPI / QR (Demo)
+            </label>
+            <label class="radio-row">
+              <input type="radio" name="payment" value="Cash on Delivery (Demo)">
+              Cash on Delivery (Demo)
+            </label>
+            <label class="radio-row">
+              <input type="radio" name="payment" value="Test Payment (Demo)">
+              Test Payment (Demo)
+            </label>
+          </fieldset>
+
+          <button type="submit" class="btn btn-primary btn-full">Place Demo Order</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= REVIEWS ================= -->
+  <section class="section reviews" id="reviews">
+    <div class="section-inner">
+      <h2 class="reveal">Prototype Feedback</h2>
+      <p class="section-lead reveal">Sample feedback from our demo — shown here to illustrate how the review experience will work, not as verified customer testimonials.</p>
+
+      <div class="review-grid" id="reviewGrid">
+        <!-- Static demo reviews -->
+        <article class="review-card">
+          <span class="demo-tag">Demo Feedback</span>
+          <div class="stars" aria-label="4 out of 5 stars">★★★★☆</div>
+          <p class="review-comment">"Nice and light, didn't feel heavy on my scalp. Curious to try it as part of my regular routine."</p>
+          <p class="review-meta">Sample entry · Hair-care routine: Everyday use</p>
+        </article>
+        <article class="review-card">
+          <span class="demo-tag">Demo Feedback</span>
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="review-comment">"Liked the spray mechanism, easy to apply. Would like more detail on how often to use it."</p>
+          <p class="review-meta">Sample entry · Hair-care routine: Weekly</p>
+        </article>
+        <article class="review-card">
+          <span class="demo-tag">Demo Feedback</span>
+          <div class="stars" aria-label="4 out of 5 stars">★★★★☆</div>
+          <p class="review-comment">"Simple packaging, straightforward product. Looking forward to the final version."</p>
+          <p class="review-meta">Sample entry · Hair-care routine: Everyday use</p>
+        </article>
+      </div>
+
+      <button class="btn btn-secondary" id="openFeedbackBtn" type="button">Leave Feedback</button>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="section faq" id="faq">
+    <div class="section-inner">
+      <h2 class="reveal">Frequently asked questions</h2>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false" aria-controls="faqPanelWhatIs">
+            What is Akanksha Cosmetics?
+            <span class="accordion-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-panel" id="faqPanelWhatIs" hidden><p>Akanksha Cosmetics is a college startup prototype: a botanical-inspired hair-care spray built around rosemary, clove and methi.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false" aria-controls="faqPanelIngredients">
+            What ingredients are used?
+            <span class="accordion-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-panel" id="faqPanelIngredients" hidden><p>The formulation is centred on three ingredients: rosemary, clove and methi (fenugreek), each traditionally used in hair-care routines.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false" aria-controls="faqPanelHowToUse">
+            How do I use the spray?
+            <span class="accordion-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-panel" id="faqPanelHowToUse" hidden><p>Shake gently before use, spray lightly onto the scalp and roots as directed on the final product label, then massage gently. Always follow the instructions provided with the prototype.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false" aria-controls="faqPanelLeaveIn">
+            Is it a leave-in or rinse-off product?
+            <span class="accordion-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-panel" id="faqPanelLeaveIn" hidden><p>Akanksha Cosmetics is designed as a leave-in spray, intended to be applied directly to the scalp and roots without rinsing.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false" aria-controls="faqPanelGreasy">
+            Does it feel greasy?
+            <span class="accordion-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-panel" id="faqPanelGreasy" hidden><p>It's designed with a lightweight feel in mind. Individual experience can vary, and final texture details will be confirmed with the finished product.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false" aria-controls="faqPanelStorage">
+            How should I store it?
+            <span class="accordion-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-panel" id="faqPanelStorage" hidden><p>Store in a cool, dry place away from direct sunlight, with the cap closed when not in use.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false" aria-controls="faqPanelShelfLife">
+            What is the shelf life?
+            <span class="accordion-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-panel" id="faqPanelShelfLife" hidden><p>Final shelf-life information will be provided after product validation.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false" aria-controls="faqPanelPurchase">
+            How can I purchase it?
+            <span class="accordion-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-panel" id="faqPanelPurchase" hidden><p>You can place a demo order through the Buy Now section above. It's a mock checkout built for this prototype, so no real payment is processed.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false" aria-controls="faqPanelMedical">
+            Is this a medical product?
+            <span class="accordion-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-panel" id="faqPanelMedical" hidden><p>No. Akanksha Cosmetics is not a licensed medical, pharmaceutical or clinical product. It's a college startup prototype intended for everyday hair and scalp care, and nothing here should be read as medical advice.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section contact" id="contact">
+    <div class="section-inner contact-grid">
+      <div class="contact-copy reveal">
+        <h2>Get in touch</h2>
+        <p>Questions, feedback, or collaboration ideas — we'd like to hear them.</p>
+        <p class="contact-email">
+          <a href="mailto:akanksha24@gmail.com">akanksha24@gmail.com</a>
+        </p>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <div class="form-field">
+          <label for="contactName">Name</label>
+          <input type="text" id="contactName" name="contactName" autocomplete="name" required>
+          <span class="field-error" id="contactNameError" role="alert"></span>
+        </div>
+        <div class="form-field">
+          <label for="contactEmail">Email</label>
+          <input type="email" id="contactEmail" name="contactEmail" autocomplete="email" required>
+          <span class="field-error" id="contactEmailError" role="alert"></span>
+        </div>
+        <div class="form-field">
+          <label for="contactSubject">Subject</label>
+          <input type="text" id="contactSubject" name="contactSubject" required>
+          <span class="field-error" id="contactSubjectError" role="alert"></span>
+        </div>
+        <div class="form-field">
+          <label for="contactMessage">Message</label>
+          <textarea id="contactMessage" name="contactMessage" rows="4" required></textarea>
+          <span class="field-error" id="contactMessageError" role="alert"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+        <p class="form-success" id="contactSuccess" hidden>Thank you! Your message has been recorded for this prototype.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="brand-name">Akanksha Cosmetics</span>
+      <p>Bloom with Nature</p>
+    </div>
+
+    <nav class="footer-links" aria-label="Footer">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#story">Our Story</a>
+      <a href="#product">Product</a>
+      <a href="#ingredients">Ingredients</a>
+      <a href="#quality">Quality</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="footer-contact">
+      <p><a href="mailto:akanksha24@gmail.com">akanksha24@gmail.com</a></p>
+    </div>
+  </div>
+
+  <div class="footer-disclaimer">
+    <p>Akanksha Cosmetics is currently a student startup prototype. Product information and claims are for demonstration purposes and should not be considered medical advice.</p>
+  </div>
+
+  <div class="footer-copyright">
+    <p>© 2026 Akanksha Cosmetics</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top" hidden>↑</button>
+
+<!-- ================= ORDER SUCCESS MODAL ================= -->
+<div class="modal-overlay" id="orderModal" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="orderModalTitle">
+    <button class="modal-close" id="orderModalClose" aria-label="Close">×</button>
+    <p class="modal-check" aria-hidden="true">✓</p>
+    <h3 id="orderModalTitle">Order Placed Successfully</h3>
+    <div class="order-receipt">
+      <div><span>Product</span><span>Akanksha Cosmetics Hair Care Spray</span></div>
+      <div><span>Quantity</span><span id="receiptQty"></span></div>
+      <div><span>Total</span><span id="receiptTotal"></span></div>
+      <div><span>Delivery method</span><span id="receiptDelivery"></span></div>
+      <div><span>Order ID</span><span id="receiptOrderId"></span></div>
+    </div>
+    <button class="btn btn-primary btn-full" id="continueBrowsingBtn">Continue Browsing</button>
+  </div>
+</div>
+
+<!-- ================= FEEDBACK MODAL ================= -->
+<div class="modal-overlay" id="feedbackModal" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="feedbackModalTitle">
+    <button class="modal-close" id="feedbackModalClose" aria-label="Close">×</button>
+    <h3 id="feedbackModalTitle">Leave demo feedback</h3>
+    <form id="feedbackForm" novalidate>
+      <div class="form-field">
+        <label for="feedbackName">Name</label>
+        <input type="text" id="feedbackName" name="feedbackName" required>
+        <span class="field-error" id="feedbackNameError" role="alert"></span>
+      </div>
+
+      <div class="form-field">
+        <span class="rating-label" id="ratingLabel">Rating</span>
+        <div class="star-picker" role="radiogroup" aria-labelledby="ratingLabel" id="starPicker">
+          <button type="button" class="star-btn" data-value="1" role="radio" aria-checked="false" aria-label="1 star">★</button>
+          <button type="button" class="star-btn" data-value="2" role="radio" aria-checked="false" aria-label="2 stars">★</button>
+          <button type="button" class="star-btn" data-value="3" role="radio" aria-checked="false" aria-label="3 stars">★</button>
+          <button type="button" class="star-btn" data-value="4" role="radio" aria-checked="false" aria-label="4 stars">★</button>
+          <button type="button" class="star-btn" data-value="5" role="radio" aria-checked="false" aria-label="5 stars">★</button>
+        </div>
+        <span class="field-error" id="feedbackRatingError" role="alert"></span>
+      </div>
+
+      <div class="form-field">
+        <label for="feedbackComment">Comment</label>
+        <textarea id="feedbackComment" name="feedbackComment" rows="3" required></textarea>
+        <span class="field-error" id="feedbackCommentError" role="alert"></span>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-full">Submit Feedback</button>
+    </form>
+  </div>
+</div>
+
+
+<script>
+/* Feedback modal fix — works even if the external script does not handle it. */
+document.addEventListener("DOMContentLoaded", function () {
+  const openBtn = document.getElementById("openFeedbackBtn");
+  const modal = document.getElementById("feedbackModal");
+  const closeBtn = document.getElementById("feedbackModalClose");
+  const form = document.getElementById("feedbackForm");
+  const starPicker = document.getElementById("starPicker");
+
+  if (!openBtn || !modal) return;
+
+  let selectedRating = 0;
+
+  function openFeedbackModal(event) {
+    if (event) event.preventDefault();
+    modal.hidden = false;
+    modal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("modal-open");
+
+    const nameInput = document.getElementById("feedbackName");
+    if (nameInput) setTimeout(() => nameInput.focus(), 0);
+  }
+
+  function closeFeedbackModal() {
+    modal.hidden = true;
+    modal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("modal-open");
+  }
+
+  openBtn.addEventListener("click", openFeedbackModal);
+  closeBtn?.addEventListener("click", closeFeedbackModal);
+
+  // Close only when clicking the dark overlay, not when clicking the modal itself.
+  modal.addEventListener("click", function (event) {
+    if (event.target === modal) closeFeedbackModal();
+  });
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape" && !modal.hidden) {
+      closeFeedbackModal();
+    }
+  });
+
+  // Star rating picker.
+  starPicker?.querySelectorAll(".star-btn").forEach(function (star) {
+    star.addEventListener("click", function () {
+      selectedRating = Number(this.dataset.value);
+
+      starPicker.querySelectorAll(".star-btn").forEach(function (item) {
+        const value = Number(item.dataset.value);
+        item.classList.toggle("is-selected", value <= selectedRating);
+        item.setAttribute("aria-checked", value === selectedRating ? "true" : "false");
+      });
+
+      const ratingError = document.getElementById("feedbackRatingError");
+      if (ratingError) ratingError.textContent = "";
+    });
+  });
+
+  // Keep feedback submission inside the modal instead of navigating/reloading.
+  form?.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const name = document.getElementById("feedbackName");
+    const comment = document.getElementById("feedbackComment");
+    const nameError = document.getElementById("feedbackNameError");
+    const ratingError = document.getElementById("feedbackRatingError");
+    const commentError = document.getElementById("feedbackCommentError");
+
+    let valid = true;
+
+    if (!name?.value.trim()) {
+      if (nameError) nameError.textContent = "Please enter your name.";
+      valid = false;
+    } else if (nameError) {
+      nameError.textContent = "";
+    }
+
+    if (!selectedRating) {
+      if (ratingError) ratingError.textContent = "Please select a rating.";
+      valid = false;
+    } else if (ratingError) {
+      ratingError.textContent = "";
+    }
+
+    if (!comment?.value.trim()) {
+      if (commentError) commentError.textContent = "Please enter your feedback.";
+      valid = false;
+    } else if (commentError) {
+      commentError.textContent = "";
+    }
+
+    if (!valid) return;
+
+    // Add the new feedback to the visible demo list.
+    const grid = document.getElementById("reviewGrid");
+    if (grid) {
+      const card = document.createElement("article");
+      card.className = "review-card";
+      card.innerHTML =
+        '<span class="demo-tag">Demo Feedback</span>' +
+        '<div class="stars" aria-label="' + selectedRating + ' out of 5 stars">' +
+          "★".repeat(selectedRating) + "☆".repeat(5 - selectedRating) +
+        '</div>' +
+        '<p class="review-comment">"' +
+          escapeHtml(comment.value.trim()) +
+        '"</p>' +
+        '<p class="review-meta">Demo entry · Submitted by ' +
+          escapeHtml(name.value.trim()) +
+        '</p>';
+      grid.appendChild(card);
+    }
+
+    form.reset();
+    selectedRating = 0;
+    starPicker?.querySelectorAll(".star-btn").forEach(function (item) {
+      item.classList.remove("is-selected");
+      item.setAttribute("aria-checked", "false");
+    });
+
+    closeFeedbackModal();
+  });
+
+  function escapeHtml(value) {
+    const div = document.createElement("div");
+    div.textContent = value;
+    return div.innerHTML;
+  }
+});
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
